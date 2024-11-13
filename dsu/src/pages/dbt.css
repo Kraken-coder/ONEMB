@@ -1,0 +1,62 @@
+.doubt-page {
+    background-color: #f4f4f4; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+  }
+  
+  .doubt-page h2 {
+    font-size: 36px; 
+    color: #333;
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .doubt-page input {
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    width: 300px; 
+    font-size: 16px; 
+    margin-bottom: 20px; 
+  }
+  
+  .doubt-page button {
+    padding: 10px 20px; 
+    background-color: #007bff;
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .doubt-page button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .doubt-page p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px; 
+  }
+  
+  .doubt-page .google-search {
+    margin-top: 20px;
+    padding: 10px 20px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .doubt-page .google-search:hover {
+    background-color: #218838; 
+  }
+  

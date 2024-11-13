@@ -1,0 +1,42 @@
+.card-link {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 280px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05); 
+}
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: solid #19f58a 2px;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+  

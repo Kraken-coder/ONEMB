@@ -1,0 +1,101 @@
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f4f8, #e0e7ff);
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.home-title {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 40px;
+  text-align: center;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.home-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.home-card h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+  text-decoration: none !important; 
+}
+
+.home-card p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  height: 60px; 
+  overflow: hidden;
+  text-decoration: none !important; 
+}
+
+.home-card img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+.home-button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 14px 28px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  background-color: #357ab8;
+  transform: translateY(-5px);
+}
+
+.home-button:active {
+  transform: translateY(2px);
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
